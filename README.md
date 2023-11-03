@@ -18,3 +18,6 @@ the application:
 the problem:
 - I'm not sure if emscripten is built to support this...
 - the only solution I see rn is to combine ALL the JS files I need into a single module to be included at compile time. this is messy and I dont like it.
+
+helpful links:
+- https://emscripten.org/docs/porting/connecting_cpp_and_javascript/Interacting-with-code.html#implement-a-c-api-in-javascript
