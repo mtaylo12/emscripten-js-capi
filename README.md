@@ -1,8 +1,9 @@
 # js-capi
 
 to run:
-- make
-- python -m http.server
+- install emscripten (see helpful links)
+- **make**
+- **python -m http.server**
 
 the outline:
 - main.cpp calls calcey and printey, implemented in JS
@@ -20,4 +21,5 @@ the problem:
 - the only solution I see rn is to combine ALL the JS files I need into a single module to be included at compile time. this is messy and I dont like it.
 
 helpful links:
-- https://emscripten.org/docs/porting/connecting_cpp_and_javascript/Interacting-with-code.html#implement-a-c-api-in-javascript
+- **emscripten c api**: https://emscripten.org/docs/porting/connecting_cpp_and_javascript/Interacting-with-code.html#implement-a-c-api-in-javascript
+- **installing emscripten**: https://emscripten.org/docs/getting_started/downloads.html
