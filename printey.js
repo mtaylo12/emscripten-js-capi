@@ -1,16 +1,9 @@
-
 mylib = {
-    $CALCEY: {
-        calcey: function (x, y) {
-            return x + y;
-        }
-    },
+    printey__deps: ['$CALCEY'],
     printey: function () {
-        Module.print('hello from lib1');
-        Module.print('1 + 2 = ', CALCEY.calcey(1, 2));
+        Module.print('2*(1) + 3*(2) = ', CALCEY.calcey(1, 2));
     }
 
 };
 
-autoAddDeps(mylib, '$CALCEY');
 addToLibrary(mylib);
