@@ -1,7 +1,8 @@
 # js-capi
+This repo is a mini tutorial on using the JavaScript C API in Emscripten. 
 
 to run:
-- install emscripten (see helpful links)
+- install emscripten
 - **make**
 - **python -m http.server**
 
