@@ -1,5 +1,5 @@
 # js-capi
-This repo is a mini tutorial on using the JavaScript C API in Emscripten. 
+This repo is a mini tutorial on using the JavaScript C API in Emscripten on nested JS libraries. 
 
 to run:
 - install emscripten
@@ -11,5 +11,6 @@ the outline:
 - the emscripten compiler is used to link in these two functions (using addToLibrary in the js and --js-library at compile time)
 - the emscripten compiler produces web assembly, javascript, and html to run the program in a browser
 
-overview:
-- example of basic nested JS libraries being used in cpp with emscripten
+helpful links:
+- https://emscripten.org/docs/porting/connecting_cpp_and_javascript/Interacting-with-code.html#implement-a-c-api-in-javascript
+
